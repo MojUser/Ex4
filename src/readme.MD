@@ -1,0 +1,8 @@
+#Zadania
+
+1. W pliku `Main1.java` zaimplementuj metodę `search(int[] arr, int number)`, która wyszuka liczbę w tablcy. Metoda powinna sprawdzić czy dana tablica jest posortowana, jeżeli tak, powinna ona użyć algortymu `binarySearch`. Jeżeli tablica jest nieposortowana, powinna ona użyć prostego wyszukiwania liniowego.
+2. W pliku `Main2.java` znajduje się metoda `increment`, która przyjmuje liczbę całkowitą, a nastepnie powieksza ją o 1. Czy metoda działa poprawnie ?
+2. W pliku `Main2.java` znajduje się metoda `reverse()`, która przyjmuje obiekt typu `StringBuilder` a następnie odwraca Stringi zawarte w tym builderze. Czy metoda działa poprawnie ?
+4. Stwórz Własną klasę `User` w której będzie można przetrzymywać proste notatki użytkownika. Klasa powinna zawierać pola `name`, `surname`, `age` oraz `notes`. Notatki powinny być przetrzymywane w formie stringów w liście. Wygeneruj gettery i settery dla tej klasy.
+5. W ramach zmian w zabezpieczeniach twojego systemu, należy zamienić klasę `User` tak by była niemutowalna. To znaczy, że po utworzeniu obiektu danej klasy, nie można go już w żaden sposób zmienić. 
+6. Klasa `LotteryRound` reprezentuje 1 losowanie w loterii. Zawiera ona informację o unikalnym id danego losowania, wylosowanych liczbach oraz osobie która wygrała dane losowanie. Sprawdź, czy zaimplementowane klasy są bezpieczne i czy nie pozwalają na nieautoryzowaną zmianę w wylosowanych numerach lub w zwycięzcy.
