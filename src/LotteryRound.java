@@ -1,9 +1,10 @@
+import java.util.HashSet;
 import java.util.Set;
 
 public class LotteryRound {
-    private int id;
-    private Set<Integer> numbers;
-    private Person winner;
+    private final int id;
+    private final Set<Integer> numbers;
+    private final Person winner;
 
     public LotteryRound(int id, Set<Integer> numbers, Person winner) {
         this.id = id;
@@ -16,7 +17,16 @@ public class LotteryRound {
     }
 
     public Set<Integer> getNumbers() {
-        return numbers;
+        return new HashSet<>(numbers);
+    }
+
+    @Override
+    public String toString() {
+        return "LotteryRound{" +
+                "id=" + id +
+                ", numbers=" + numbers +
+                ", winner=" + winner +
+                '}';
     }
 
     public Person getWinner() {
